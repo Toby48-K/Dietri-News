@@ -238,7 +238,7 @@ a {
   header {
     position: relative;
     padding-inline: 8px;
-    padding: 10px;
+    padding: 18px;
   }
   header ul {
     flex-direction: column;
@@ -295,14 +295,14 @@ a {
   }
   .navbar {
     display: flex;
-    gap: 10px;
+    gap: 18px;
     margin: 0;
     padding: 0px;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
+    flex-direction: column; 
     justify-content: center;
     margin-bottom: 1rem;
-  }
+    align-items: center; 
+   }
 
   footer h1 {
     font-size: 1rem;
