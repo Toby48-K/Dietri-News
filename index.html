@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Dietri-News</title>
+    <title>Document</title>
 <body>
         <header>
             <div class="container">
                <div class="nav">
                 <div class="logo">
-                    <img src="Images/1655397610647 2.png" alt="download">
+                    <img src="Images/1655397610647 2.png" alt="download" >
                 </div>
-                <nav>
+               <span class="menu"><i class="fa fa-2x fa-bars bars"></i></span>
+                <nav class="ten" id="nav">
                 <ul>
                     <li><a href="Meal Plans">Meal Plans</a></li>
                     <li><a href="Download">Download</a></li>
@@ -33,20 +35,20 @@
         </header>
         <section class="news">
             <div class="container">
-            <h1>News</h1>
+            <h1 class="new">News</h1>
             <div class="navbar"> 
-                <img src="Images/Recipe Ideas.png" alt="dwnload">
-                <img src="Images/Weight gain.png" alt="downloadľ">
-                <img src="Images/bUDGET.png" alt="download3">
-                <img src="Images/Foodomics.png" alt="dwnload4">
-                <img src="Images/Special Diet.png" alt="dwn5">
+                <button class="button">Recipe Ideas</button>
+                <button class="button">Where to Eat</button>
+                <button class="button">Shopping & Budget</button>
+                <button class="button">Foodomics</button>
+                <button class="button">Special Diet</button>
             </div>
             <img src="Images/Saerch News Bar.png" alt="">
             </div>
         </section>
         <section class="recent">
             <div class="container">
-                <h2>Recent</h2>
+                <h2 class="ren">Recent</h2>
                 <div class="flex">
                     <img src="Images/Rectangle1.png">
                     <div class="food">
@@ -211,7 +213,21 @@
 
 
 
-    
+   <script>
+    let menu= document.querySelector('.menu');
+    let nav= document.getElementById('nav');
+    menu.addEventListener('click', function(){
+     if(nav.style.display==="block"){
+         nav.style.display="none";
+        
+     }
+     else{
+         nav.style.display="block";
+          nav.classList.add('get');
+          nav.classList.add('in');
+     }
+    });
+   </script> 
     
 </body>
 </html>

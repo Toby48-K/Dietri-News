@@ -1,5 +1,6 @@
 header {
   background-color: #7a121b;
+  padding: 10px;
 }
 
 * {
@@ -68,8 +69,11 @@ header a {
 
 .navbar {
   gap: 10px;
-  margin: 0;
-  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.button {
+  border-radius: 50px !important;
 }
 
 .Recent {
@@ -214,4 +218,115 @@ a {
 }
 .like {
   width: 100%;
+}
+.menu {
+  display: none;
+}
+.in {
+  animation: slideIn 0.9s ease-in-out;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    position: relative;
+    padding-inline: 8px;
+    padding: 10px;
+  }
+  header ul {
+    flex-direction: column;
+    gap: 23px;
+    align-items: unset;
+  }
+  .bars {
+    color: rgb(197, 197, 7);
+  }
+  header img {
+    width: 45%;
+  }
+  nav {
+    display: none;
+  }
+  .get {
+    padding-top: 45px;
+    top: 0px;
+    background-color: #7a121b;
+    height: 100vh;
+    width: 40%;
+    left: 0px;
+    position: fixed;
+    padding-left: 8px;
+  }
+  header a {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .menu {
+    display: block;
+  }
+  .flex {
+    padding-inline: 7px;
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  .ren {
+    text-align: center;
+    font-size: 26px;
+  }
+  .news h1 {
+    margin-bottom: 1rem;
+    font-size: 32px;
+  }
+ 
+  h3 {
+    font-size: 18px;
+  }
+  .med {
+    width: 38% !important;
+  }
+  .navbar {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0px;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  footer h1 {
+    font-size: 1rem;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+  }
+  input {
+    width: 309px;
+  }
+  footer img {
+    width: 65%;
+  }
+  footer ul {
+    justify-content: space-between;
+    text-align: center;
+  }
+  .contact {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
