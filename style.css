@@ -23,6 +23,37 @@ header ul {
   gap: 15px;
   align-items: center;
 }
+.check {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #7a121b;
+
+  border-radius: 5px;
+  padding: 12px 56px;
+  font-size: 1.2em;
+  color: white;
+  outline: none;
+}
+.check::placeholder {
+  color: #7a121b;
+  font-size: 24px;
+}
+
+.box {
+  margin-inline: 14px;
+  position: relative;
+  position: relative;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+}
+.img {
+  color: #6e0e16;
+  position: absolute;
+  left: 16px;
+}
 
 header a {
   text-decoration: none;
@@ -150,9 +181,15 @@ letter h1 {
 .form {
   text-align: center;
   margin: 1rem 0;
+  
+}
+.form button {
+  margin-left: 150px;
+  text-align: center;
+
 }
 input {
-  width: 500px;
+  width: 401px;
   padding: 9px 0;
   background: rgba(252, 255, 255, 0.41);
   border: 1px solid #fad427;
@@ -162,10 +199,12 @@ input::placeholder {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
 
   color: rgba(255, 255, 255, 0.34);
 }
+
+
 input:focus {
   outline: none;
 }
@@ -313,8 +352,18 @@ a {
     gap: 19px;
     align-items: center;
   }
+  .letter button {
+    font-size: 15px;
+    width: 106px;
+    height: 28px;
+    padding-right: 32px;
+    padding-left: 15px;
+    
+  }
   input {
-    width: 309px;
+    width: 218px;
+    height: 31px;
+    margin-left: 19px;
   }
   footer img {
     width: 65%;
@@ -322,11 +371,24 @@ a {
   footer ul {
     justify-content: space-between;
     text-align: center;
+
+  }
+
+  .form button {
+    margin-right: 125px;
+    margin-bottom: -22px;
+    margin-top: -24px;
+    text-align: ;
   }
   .contact {
     flex-direction: column;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
 }
+.like {
+  width: 104%;
+}
+
