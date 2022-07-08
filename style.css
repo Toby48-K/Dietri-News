@@ -316,7 +316,7 @@ a {
     display: block;
   }
   .flex {
-    padding-inline: 7px;
+    padding-inline: 15px;
     flex-direction: column;
   }
   h2 {
