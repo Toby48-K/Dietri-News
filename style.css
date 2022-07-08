@@ -18,6 +18,7 @@ img {
   height: auto;
 }
 
+
 header ul {
   list-style: none;
   display: flex;
@@ -305,6 +306,7 @@ a {
     left: 0px;
     position: fixed;
     padding-left: 8px;
+    z-index: 1;
   }
  
     
@@ -345,7 +347,8 @@ a {
     flex-direction: column; 
     justify-content: center;
     margin-bottom: 1rem;
-    align-items: center; 
+    align-items: center;
+    
    }
 
   footer h1 {
