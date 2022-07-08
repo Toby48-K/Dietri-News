@@ -8,6 +8,7 @@ header {
   padding: 0px;
   box-sizing: border-box;
 }
+
 .container {
   max-width: 1200px;
   margin-inline: auto;
@@ -37,8 +38,9 @@ header ul {
   outline: none;
 }
 .check::placeholder {
-  color: #7a121b;
-  font-size: 24px;
+  color: black;
+  font-size: 18px;
+  
 }
 
 .box {
@@ -50,9 +52,10 @@ header ul {
   align-items: center;
 }
 .img {
-  color: #6e0e16;
+  color: black;
   position: absolute;
   left: 16px;
+  
 }
 
 header a {
@@ -109,14 +112,10 @@ header a {
 
 .Recent {
   text-align: right;
-}
-
-.Recent {
-  text-align: right;
   margin: 0px;
 }
 .flex {
-  margin: 17px 0;
+  margin: 30px 0;
   display: flex;
   justify-content: space-between;
   gap: 12px;
@@ -287,6 +286,10 @@ a {
   .bars {
     color: rgb(197, 197, 7);
   }
+  .box img{
+    height: 30px;
+  }
+
   header img {
     width: 45%;
   }
@@ -303,6 +306,8 @@ a {
     position: fixed;
     padding-left: 8px;
   }
+ 
+    
   header a {
     font-size: 18px;
     font-weight: normal;
