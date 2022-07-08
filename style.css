@@ -35,8 +35,9 @@ header ul {
   border-radius: 5px;
   padding: 12px 56px;
   font-size: 1.2em;
-  color: white;
+  color: black;
   outline: none;
+  
 }
 .check::placeholder {
   color: black;
@@ -194,15 +195,18 @@ input {
   background: rgba(252, 255, 255, 0.41);
   border: 1px solid #fad427;
   border-radius: 5px;
+  
 }
+
 input::placeholder {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-
   color: rgba(255, 255, 255, 0.34);
 }
+
+
 
 
 input:focus {
